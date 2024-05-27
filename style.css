@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9fd7fc;
+  }
+  
+  .contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(196, 233, 248);
+  }
+  
+  h1 {
+    color: #333333;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+.datosClima{
+  display: grid;
+  grid-template-areas: 
+  "titulo titulo"
+  "estado descripcion";
+}
+.datosClima *{
+  padding: 8px;
+}
+.titulo{
+  grid-area: titulo;
+  border: 1px solid rgb(99, 99, 99);
+}
+.estado{
+  grid-area: estado;
+  border: 1px solid rgb(99, 99, 99);
+}
+.descripcion{
+  grid-area: descripcion;
+  border: 1px solid rgb(99, 99, 99);
+}
